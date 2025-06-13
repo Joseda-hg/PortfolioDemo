@@ -14,13 +14,39 @@ import HireServiceModal from "../components/HireServiceModal.astro";
   <section id="home" class="flex flex-col">
     <article class="text-gray-950 dark:text-white text-pretty mx-auto">
       <h1 class="text-4xl md:text-6xl font-bold max-w-screen-sm">
-        Welcome 👋, I'm Carlos Miguel
+        Welcome, I'm Jose Hernandez
       </h1>
       <div class="flex flex-col gap-6 mt-8">
         <h2 class="font-bold text-xl sm:text-2xl">
           Available to help you with:
         </h2>
         <div class="flex flex-col sm:flex-row gap-4 overflow-hidden relative">
+          <Card className="card">
+            <div
+              class="rounded-full p-4 grid place-content-center bg-yellow-50 text-yellow-500 dark:bg-yellow-950/30 dark:text-yellow-700 w-fit"
+            >
+              <svg
+                class="size-8"
+                fill="Teal"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                ><path
+                  d="M64 32C28.7 32 0 60.7 0 96l0 64c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-64c0-35.3-28.7-64-64-64L64 32zm280 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm48 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM64 288c-35.3 0-64 28.7-64 64l0 64c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-64c0-35.3-28.7-64-64-64L64 288zm280 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm56 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"
+                ></path></svg
+              >
+            </div>
+            <h2 class="font-semibold text-lg sm:text-xl md:text-2xl">
+              FullStack Development
+            </h2>
+            <p class="text-gray-600 text-sm sm:text-base dark:text-gray-400">
+              Skilled in building robust and scalable server-side applications
+              with <span class="text-blue-700 dark:text-blue-500"
+                >C#, Go or NodeJS</span
+              >. I ensure your backend is secure, efficient, and seamlessly
+              integrated with your frontend.
+            </p>
+          </Card>
+
           <Card className="card">
             <div
               class="rounded-full p-4 grid place-content-center bg-blue-50 text-blue-500 dark:bg-blue-950/30 dark:text-blue-700 w-fit"
@@ -36,39 +62,14 @@ import HireServiceModal from "../components/HireServiceModal.astro";
               >
             </div>
             <h2 class="font-semibold text-lg sm:text-xl md:text-2xl">
-              Frontend Development
+              Data Visualization and Analysis
             </h2>
             <p class="text-gray-600 text-sm sm:text-base dark:text-gray-400">
               Expert in creating dynamic and responsive user interfaces using
               <span class="text-blue-700 dark:text-blue-500"
-                >Angular and Astro</span
+                >Astro and other WebTech</span
               >. I bring your designs to life with clean, efficient, and
               maintainable code.
-            </p>
-          </Card>
-          <Card className="card">
-            <div
-              class="rounded-full p-4 grid place-content-center bg-yellow-50 text-yellow-500 dark:bg-yellow-950/30 dark:text-yellow-700 w-fit"
-            >
-              <svg
-                class="size-8"
-                fill="currentColor"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512"
-                ><path
-                  d="M64 32C28.7 32 0 60.7 0 96l0 64c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-64c0-35.3-28.7-64-64-64L64 32zm280 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm48 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM64 288c-35.3 0-64 28.7-64 64l0 64c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-64c0-35.3-28.7-64-64-64L64 288zm280 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm56 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"
-                ></path></svg
-              >
-            </div>
-            <h2 class="font-semibold text-lg sm:text-xl md:text-2xl">
-              Backend Development
-            </h2>
-            <p class="text-gray-600 text-sm sm:text-base dark:text-gray-400">
-              Skilled in building robust and scalable server-side applications
-              with <span class="text-yellow-700 dark:text-yellow-500"
-                >NestJS and Express</span
-              >. I ensure your backend is secure, efficient, and seamlessly
-              integrated with your frontend.
             </p>
           </Card>
         </div>
@@ -90,7 +91,7 @@ import HireServiceModal from "../components/HireServiceModal.astro";
             Short Bio 🧬
           </h3>
           <p>
-            I'm an experienced FullStack Web Developer focused on the NestJS and
+            I'm an experienced FullStack  Developer focused on the C# and
             Angular ecosystem. I'm compromised with the quality of the code and
             the reliability of the websites I build.
           </p>
@@ -188,7 +189,7 @@ import HireServiceModal from "../components/HireServiceModal.astro";
         {
           delay: stagger(0.2),
           duration: 0.6,
-        }
+        },
       );
     });
   });

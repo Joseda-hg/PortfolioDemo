@@ -1,34 +1,35 @@
 [
   {
     "id": 1,
-    "title": "Landing Page",
-    "price": 75,
+    "title": "Online Presence",
+    "price": "From $200.000",
     "description": "Perfect for businesses looking for a professional online presence.",
     "benefits": [
-      "High-quality code",
-      "Fully responsive design",
+      "Static website w/ up to 10 pages",
       "SEO-optimized structure",
-      "Fast loading speed",
+      "Logo and branding design",
+      "Business cards and linktree style page included",
       "1 free extra revision after launch"
     ]
   },
   {
     "id": 2,
-    "title": "E-Commerce",
-    "price": 225,
+    "title": "Business essentials",
+    "price": "From $400.000",
     "description": "Ideal for selling products online with security and ease.",
     "benefits": [
       "High-quality code",
       "Fully responsive online store",
       "Secure payment gateway integration",
       "Product management system",
-      "Ongoing support and maintenance"
+      "Ongoing support and maintenance",
+      "Custom business email setup"
     ]
   },
   {
     "id": 3,
-    "title": "E-Commerce + Admin Dashboard",
-    "price": 325,
+    "title": "Custom Development",
+    "price": "Contact for pricing",
     "description": "Perfect for businesses that want full control over their online store.",
     "benefits": [
       "High-quality code",
